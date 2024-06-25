@@ -34,7 +34,7 @@ namespace OPJosMod_HumanFallFlat.SpiderMan.Patches
                 Vector3 vector = __instance.velocity;
 
                 if (vector.y < maxUpVelocity)
-                    vector.y += 0.5f;
+                    vector.y += 0.75f;
 
                 foreach (Rigidbody val in array)
                 {
