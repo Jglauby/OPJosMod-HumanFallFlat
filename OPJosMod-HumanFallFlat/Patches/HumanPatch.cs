@@ -1,9 +1,8 @@
 ﻿using BepInEx.Logging;
 using HarmonyLib;
-using InControl;
 using UnityEngine;
 
-namespace OPJosMod_HumanFallFlat.Patches
+namespace OPJosMod_HumanFallFlat.SpiderMan.Patches
 {
     [HarmonyPatch(typeof(Human))]
     internal class HumanPatch

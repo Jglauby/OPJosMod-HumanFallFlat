@@ -1,15 +1,15 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
-using OPJosMod_HumanFallFlat.Patches;
+using OPJosMod_HumanFallFlat.SpiderMan.Patches;
 
-namespace OPJosModHumanFallFlat.TestMod
+namespace OPJosModHumanFallFlat.SpiderMan
 {
     [BepInPlugin(modGUID, modName, modVersion)]
     public class OpJosModBase : BaseUnityPlugin
     {
-        private const string modGUID = "OpJosModHumanFallFlat.TestMod";
-        private const string modName = "TestMod";
+        private const string modGUID = "OpJosModHumanFallFlat.SpiderMan";
+        private const string modName = "SpiderMan";
         private const string modVersion = "1.0.0";
 
         private readonly Harmony harmony = new Harmony(modGUID);
