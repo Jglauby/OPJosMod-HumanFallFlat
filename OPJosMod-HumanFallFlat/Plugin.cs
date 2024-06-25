@@ -25,7 +25,7 @@ namespace OPJosModHumanFallFlat.TestMod
             mls = BepInEx.Logging.Logger.CreateLogSource(modGUID);
             mls.LogInfo($"{modName} has started!");
 
-            PlayerManagerPatch.SetLogSource(mls);
+            HumanPatch.SetLogSource(mls);
             harmony.PatchAll();
         }
     }

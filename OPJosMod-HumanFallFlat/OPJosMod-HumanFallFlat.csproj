@@ -40,6 +40,10 @@
     <Reference Include="BepInEx">
       <HintPath>J:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
+    <Reference Include="HumanAPI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>J:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed\HumanAPI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,9 +58,13 @@
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>J:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>J:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Patches\PlayerManagerPatch.cs" />
+    <Compile Include="Patches\HumanPatch.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
